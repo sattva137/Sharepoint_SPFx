@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-org-chart-client-side-solution",
+    "id": "7cb0c60c-f032-4f8b-bca4-5ed77bbf9b6e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Directory.Read.All"
+      }
+    ],
+    "features": [
+      {
+        "title": "Org chart web part",
+        "description": "Deploys the SPFx org chart web part.",
+        "id": "8481033b-2b48-4b97-80f0-6244eb8be903",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-org-chart.sppkg"
+  }
+}

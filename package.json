@@ -1,0 +1,41 @@
+{
+  "name": "spfx-org-chart-webpart",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "serve": "gulp serve",
+    "test": "gulp test",
+    "package-solution": "gulp package-solution"
+  },
+  "dependencies": {
+    "@fluentui/react": "8.124.1",
+    "@microsoft/sp-core-library": "1.22.2",
+    "@microsoft/sp-http": "1.22.2",
+    "@microsoft/sp-lodash-subset": "1.22.2",
+    "@microsoft/sp-office-ui-fabric-core": "1.22.2",
+    "@microsoft/sp-property-pane": "1.22.2",
+    "@microsoft/sp-webpart-base": "1.22.2",
+    "d3": "7.9.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-4.7": "0.1.0",
+    "@microsoft/sp-build-web": "1.22.2",
+    "@microsoft/sp-module-interfaces": "1.22.2",
+    "@types/d3": "7.4.3",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "@types/webpack-env": "1.16.0",
+    "ajv": "^8.17.1",
+    "gulp": "4.0.2",
+    "typescript": "5.3.3"
+  }
+}

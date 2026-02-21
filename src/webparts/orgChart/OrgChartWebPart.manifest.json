@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "8f3c6d62-d4f0-4f8f-9e89-ace3c8f0160a",
+  "alias": "OrgChartWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Org Chart" },
+      "description": { "default": "Displays an interactive organization chart from Microsoft Graph." },
+      "officeFabricIconFontName": "Org",
+      "properties": {}
+    }
+  ]
+}
